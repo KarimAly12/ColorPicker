@@ -57,7 +57,7 @@ Yet another Color Picker Library for Android. It is highly customizable and easy
     ColorPickerDialog
         .Builder(this)        				// Pass Activity Instance
         .setTitle("Pick Theme")           	// Default "Choose Color"
-        .setColorShape(ColorShape.SQAURE)   // Default ColorShape.CIRCLE
+        .setColorShape(ColorShape.SQUARE)   // Default ColorShape.CIRCLE
         .setDefaultColor(mDefaultColor)     // Pass Default Color
         .setColorListener { color, colorHex ->
         	// Handle Color Selection
@@ -70,7 +70,7 @@ Yet another Color Picker Library for Android. It is highly customizable and easy
     new ColorPickerDialog
         .Builder(this)
         .setTitle("Pick Theme")
-        .setColorShape(ColorShape.SQAURE)
+        .setColorShape(ColorShape.SQUARE)
         .setDefaultColor(mDefaultColor)
         .setColorListener(new ColorListener() {
             @Override
@@ -89,7 +89,7 @@ Yet another Color Picker Library for Android. It is highly customizable and easy
     MaterialColorPickerDialog
         .Builder(this)        					// Pass Activity Instance
         .setTitle("Pick Theme")           		// Default "Choose Color"
-        .setColorShape(ColorShape.SQAURE)   	// Default ColorShape.CIRCLE
+        .setColorShape(ColorShape.SQUARE)   	// Default ColorShape.CIRCLE
         .setColorSwatch(ColorSwatch._300)   	// Default ColorSwatch._500
         .setDefaultColor(mDefaultColor) 		// Pass Default Color
         .setColorListener { color, colorHex ->
@@ -103,7 +103,7 @@ Yet another Color Picker Library for Android. It is highly customizable and easy
     new MaterialColorPickerDialog
         .Builder(this)
         .setTitle("Pick Theme")
-        .setColorShape(ColorShape.SQAURE)
+        .setColorShape(ColorShape.SQUARE)
         .setColorSwatch(ColorSwatch._300)
         .setDefaultColor(mDefaultColor)
         .setColorListener(new ColorListener() {
